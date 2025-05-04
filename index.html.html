@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Loja App</title>
+    <link rel="icon" href="icone log.png" type="image/png" sizes="100x100">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+
+    <style>
+
+        
+      body {
+        font-family: 'Inter', sans-serif;
+      }
+   
+       /* Animação de Fade-In */
+       .fade-in {
+        animation: fadeIn 1s ease-in-out;
+      }
+
+      @keyframes fadeIn {
+        0% {
+          opacity: 0;
+          transform: translateY(30px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+    </style>
+
+
+    <!-- Font Awesome para os ícones -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+  </head>
+
+  <body
+    class="bg-cover bg-center bg-no-repeat text-gray-800 min-h-screen flex items-center justify-center px-4"
+    style="background-image: url('Background3.png');"
+  >
+    <div
+      class="text-center p-6 sm:p-8 bg-white bg-opacity-90 backdrop-blur-md rounded-2xl shadow-xl w-full max-w-md fade-in"
+    >
+      <!-- Logo maior -->
+      <img
+        src="MobileLegisLogoFinal_MobilelegisLogo EL.-02.png"
+        alt="Logo da App"
+        class="w-32 h-32 mx-auto mb-4 rounded-full object-contain"
+      />
+
+      <!-- Título -->
+      <h1 class="text-2xl sm:text-3xl font-bold mb-2">Explore o Loja App!</h1>
+      <p class="text-gray-600 text-base sm:text-lg mb-6">
+        Baixe o nosso aplicativo ou siga-nos nas redes sociais.
+      </p>
+
+      <!-- Botões de download -->
+      <div class="flex flex-col gap-4">
+        <a
+          href="https://play.google.com/store/apps/details?id=seu.app"
+          target="_blank"
+          class="bg-green-500 hover:bg-green-600 text-white py-3 px-5 rounded-xl font-semibold transition duration-300 flex items-center justify-center gap-2"
+        >
+          <i class="fab fa-android text-xl"></i> Baixar na Play Store
+        </a>
+        <a
+          href="https://apps.apple.com/mz/app/mobilelegis/id1605623857"
+          target="_blank"
+          class="bg-black hover:bg-gray-800 text-white py-3 px-5 rounded-xl font-semibold transition duration-300 flex items-center justify-center gap-2"
+        >
+          <i class="fab fa-apple text-xl"></i> Baixar na App Store
+        </a>
+      </div>
+
+      <!-- Redes sociais com ícones em preto -->
+      <div class="mt-6 flex justify-center gap-6 text-2xl">
+        <a
+          href="https://mz.linkedin.com/company/mobile-legis"
+          target="_blank"
+          class="text-black hover:scale-110 transform transition duration-200"
+          title="LinkedIn"
+        >
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a
+          href="https://www.facebook.com/Mobile-Legis-112524383846395"
+          target="_blank"
+          class="text-black hover:scale-110 transform transition duration-200"
+          title="Facebook"
+        >
+          <i class="fab fa-facebook"></i>
+        </a>
+        <a
+          href="https://www.instagram.com/mobilelegis/"
+          target="_blank"
+          class="text-black hover:scale-110 transform transition duration-200"
+          title="Instagram"
+        >
+          <i class="fab fa-instagram"></i>
+        </a>
+        <!-- Substituindo o WhatsApp pelo link para o site -->
+        <a
+          href="https://mobilelegis.com/pt/"
+          target="_blank"
+          class="text-black hover:scale-110 transform transition duration-200"
+          title="Visite nosso site"
+        >
+          <i class="fas fa-globe text-xl"></i> <!-- Ícone do navegador -->
+        </a>
+      </div>
+
+      <!-- Rodapé -->
+      <p class="text-sm text-gray-400 mt-6">
+        © 2025  Law Technonology Solutions. Todos os direitos reservados.
+      </p>
+    </div>
+  </body>
+</html>
